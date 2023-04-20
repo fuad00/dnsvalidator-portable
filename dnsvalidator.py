@@ -13,8 +13,8 @@ import concurrent.futures
 from ipaddress import ip_address, IPv4Address, IPv6Address
 
 
-from .lib.core.input import InputParser, InputHelper
-from .lib.core.output import OutputHelper, Level
+from core.input import InputParser, InputHelper
+from core.output import OutputHelper, Level
 
 
 def rand():
